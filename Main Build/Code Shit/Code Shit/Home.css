@@ -1,0 +1,496 @@
+html,body,header{
+    height: 150vh;
+    font-family: 'sweet sans', monospace;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper .top_nav{
+    overflow: visible;
+    z-index: 500;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 85px;
+    background: #000000;
+    padding: 10px 45%;
+    justify-content: space-between;
+}
+
+.wrapper .top_nav .left{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .top_nav .left .logo p{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 25px;
+}
+
+.wrapper .top_nav .left p span{
+    color: rgb(255, 255, 255);
+}
+
+.wrapper .bottom_nav{
+    width: 100%;
+    background-color: black;
+    height: 45px;
+    padding: 0 500px;
+}
+
+.wrapper .bottom_nav ul {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+}
+
+.wrapper .bottom_nav ul li a{
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.bottom_nav ul li a:hover{
+    color: rgb(255, 186, 95);
+    transition: color 0.3s ease-in-out;
+}
+
+.wrapper .banner{
+    width: 100%;
+    height: 400px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: relative;
+    height: 700px;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    border-right: 0px solid rgb(169, 169, 169);
+}
+
+.box .Text0 {
+    position: relative;
+    padding-top: 27%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+.box .Text1 {
+    display: flex;
+    justify-content: center;
+    padding-right: 28.5%;
+    font-size: 20px;
+    color: rgb(118, 118, 118);
+}
+
+.box .button0{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box .button0 ul li a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.box .button0 ul li a:hover{
+    color: rgb(255, 186, 95);
+    transition: color 0.3s ease-in-out;
+}
+
+.box2{
+    position: relative;
+    opacity: 20%;
+    height: 700px;
+    width: 50%;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    border-bottom: 2px solid white;
+}
+
+.mid_body {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background-size: 100%;
+    overflow: hidden;
+    font-size: 40pt;
+}
+
+.mb_img img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+
+.mid_body .Text2 {
+    position: absolute;
+    top: 2px;
+    color: white;
+    text-align: center;
+    padding-top: 230px;
+    padding-left: 800px;
+}
+
+.mid_body .button1{
+    position: absolute;
+    top: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 450px;
+    padding-left: 48%;
+    text-decoration: underline;
+    color: white;
+}
+
+.button1 ul li a{
+    color: #ffffff;
+}
+
+.button1 ul li a:hover{
+    color: rgb(255, 186, 95);
+    transition: color 0.3s ease-in-out;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_showcase{
+    height: 700px;
+    width: 50%;
+    background-color: rgb(127, 246, 255);
+    font-size: 40pt;
+    overflow: hidden;
+    position: relative;
+}
+
+.product_showcase img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-body{
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+    height: 100%;
+    width: 100%;
+    background: #a7a7a78d;
+    transition: 150ms;
+}
+
+.product_showcase:hover .card-body{
+    opacity: 100%;
+}
+
+.cardT{
+    text-align: center;
+    padding-top: 23%;
+    color: white;
+}
+
+.subT{
+    text-align: center;
+    color: white;
+}
+
+.CD{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5%;
+    color: white;
+}
+
+.CD ul li a{
+    color: #ffffff;
+}
+
+.CD:hover{
+    text-decoration: underline;
+}
+
+.product_showcase2{
+    height: 700px;
+    width: 50%;
+    background-color: rgb(127, 255, 133);
+    font-size: 40pt;
+    overflow: hidden;
+    position: relative;
+}
+
+.product_showcase2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.cardB2{
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+    height: 100%;
+    width: 100%;
+    background: #a7a7a78d;
+    transition: 150ms;
+}
+
+.product_showcase2:hover .cardB2{
+    opacity: 100%;
+}
+
+.cardT2{
+    text-align: center;
+    padding-top: 23%;
+    color: white;
+}
+
+.subT2{
+    text-align: center;
+    color: white;
+}
+
+.CD2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+.CD2 ul li a{
+    color: #ffffff;
+}
+
+.CD2:hover{
+    text-decoration: underline;
+}
+
+.product_showcase3{
+    height: 700px;
+    width: 50%;
+    background-color: rgb(127, 165, 255);
+    font-size: 40pt;
+    overflow: hidden;
+    position: relative;
+}
+
+.product_showcase3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.cardB3{
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+    height: 100%;
+    width: 100%;
+    background: #a7a7a78d;
+    transition: 150ms;
+}
+
+.product_showcase3:hover .cardB3{
+    opacity: 100%;
+}
+
+.cardT3{
+    text-align: center;
+    padding-top: 23%;
+    color: white;
+}
+
+.subT3{
+    text-align: center;
+    color: white;
+}
+
+.CD3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5%;
+    color: white;
+}
+
+.CD3 ul li a{
+    color: #ffffff;
+}
+
+.CD3:hover{
+    text-decoration: underline;
+}
+
+.product_showcase4{
+    height: 700px;
+    width: 50%;
+    background-color: rgb(204, 127, 255);
+    font-size: 40pt;
+    overflow: hidden;
+    position: relative;
+}
+
+.product_showcase4 img{
+    height: 100%;
+    width: 100%;
+}
+
+.cardB4{
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+    height: 100%;
+    width: 100%;
+    background: #a7a7a78d;
+    transition: 150ms;
+}
+
+.product_showcase4:hover .cardB4{
+    opacity: 100%;
+}
+
+.cardT4{
+    text-align: center;
+    padding-top: 23%;
+    color: white;
+}
+
+.subT4{
+    text-align: center;
+    color: white;
+}
+
+.CD4{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5%;
+    color: white;
+}
+
+.CD4 ul li a{
+    color: #ffffff;
+}
+
+.CD4:hover{
+    text-decoration: underline;
+}
+
+h3{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid white;
+}
+
+.foot1{
+    height: 333px;
+    width: 33.333%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.foot1 .Newsletter{
+    font-size: 25px;
+    padding-top: 13%;
+    padding-left: 15%;
+    color: rgb(255, 255, 255);
+}
+
+.foot1 .Ncontent{
+    font-size: 17px;
+    padding-top: 9px;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    color: rgb(118, 118, 118);
+}
+
+.foot1 .Email{
+    text-decoration: underline white;
+    padding-left: 15%;
+    color: rgb(118, 118, 118);
+}
+
+.foot1 .button3{
+    text-align: center;
+    color: rgb(118, 118, 118);
+    padding-top: 5%;
+    text-decoration: underline white;
+}
+
+.foot2{
+    height: 333px;
+    width: 33.333%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.foot2 img{
+    height: 40%;
+    width: 40%;
+}
+
+.foot2 .cookies{
+    text-align: center;
+    color: rgb(118, 118, 118);
+}
+
+.foot3{
+    height: 333px;
+    width: 33.333%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.foot3 .Socials{
+    font-size: 25px;
+    padding-top: 20%;
+    padding-left: 15%;
+    color: white;
+}
+
+h4 {
+display: flex;
+}
+
+.copyright{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    font-size: 13pt;
+    font-weight: 400;
+    color: rgb(132, 132, 132);
+    text-align: center;
+    padding-top: 10px;
+}
